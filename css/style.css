@@ -129,7 +129,7 @@
  body {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
-  color:rgba(0,0,0,0.6);
+  color:rgba(0,0,0,0.6) !important;
   font-size: 18px;
   position: relative;
  }
@@ -189,6 +189,7 @@
 .theme-title-two p {
   font-size: 20px;
   margin-top: 25px;
+  color: black;
 }
 .theme-button {position: relative;overflow: hidden;z-index: 1;}
 .theme-button span {
@@ -252,6 +253,7 @@
 .home-page-one footer .subscribe-form .input-wrapper input[type="text"]:focus,
 .home-page-one footer .subscribe-form .input-wrapper input[type="email"]:focus {
   border-color:#008bbc;
+  color: black;
 }
 /*---------Home two---------*/
 .home-page-two .scroll-top,
@@ -540,6 +542,7 @@
 .what-we-do .single-block p {
   font-size: 17px;
   line-height: 30px;
+  color: black;
 }
 .what-we-do .single-block a {
   width: 135px;
@@ -706,7 +709,7 @@
   font-size: 45px;
 }
 .advance-feature .feature-warpper .single-feature h5 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   margin: 10px 0 18px 0;
   color: #fff;
@@ -974,10 +977,11 @@
   margin-bottom: 30px;
   font-weight: 500;
   font-size: 16px;
+  color: grey;
 }
 .contact-us-section .contact-us-form input[type="text"]:focus,
 .contact-us-section .contact-us-form input[type="email"]:focus,
-.contact-us-section .contact-us-form textarea:focus {border-bottom-color: #3fdefb;}
+.contact-us-section .contact-us-form textarea:focus {border-bottom-color: #3fdefb; color: black;}
 .contact-us-section .contact-us-form input[type="text"],
 .contact-us-section .contact-us-form input[type="email"] {
   height: 60px;
@@ -1147,6 +1151,7 @@ footer .subscribe-form .input-wrapper input[type="email"] {
   height: 60px;
   margin-bottom: 15px;
   padding: 0 30px;
+  color: grey;
 }
 footer .subscribe-form .input-wrapper .theme-button {
   height: 60px;
@@ -1184,6 +1189,7 @@ footer .bottom-footer ul.social-icon li a {
   font-size: 20px;
 }
 footer .bottom-footer ul.social-icon li a:hover {color: #212121;}
+footer .bottom-footer ul.social-icon li i.fa-facebook:hover {color: #3c5a99;}
 footer .bottom-footer [class*="col-"] {margin-bottom: 50px;}
 
 
